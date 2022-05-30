@@ -1,0 +1,20 @@
+type Query {
+    firstQuery:String
+    fullName(firstName:String,lastName:String):String
+    getFullName(requestFullName:FullNameParams):String
+    student(id:Int):StudentRepresentation
+}
+
+input FullNameParams {
+    firstName:String!
+    lastName:String
+}
+
+type StudentRepresentation{
+    id : ID
+    firstName:String
+    lastName:String
+    gender:String
+    street:String
+    city:String
+}
