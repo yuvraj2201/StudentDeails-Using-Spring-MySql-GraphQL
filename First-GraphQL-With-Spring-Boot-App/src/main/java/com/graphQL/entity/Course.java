@@ -2,6 +2,8 @@ package com.graphQL.entity;
 
 import javax.persistence.*;
 
+@Entity
+@Table(name = "student_course")
 public class Course {
 
     @Id

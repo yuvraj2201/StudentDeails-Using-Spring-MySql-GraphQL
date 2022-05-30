@@ -1,4 +1,4 @@
-package com.graphQL.service.App;
+package com.graphQL.services.App;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

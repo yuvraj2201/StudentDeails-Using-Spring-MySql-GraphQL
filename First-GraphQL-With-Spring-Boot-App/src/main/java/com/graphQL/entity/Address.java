@@ -1,7 +1,7 @@
 package com.graphQL.entity;
 
 import javax.persistence.*;
-
+@Entity
 @Table(name = "student_address")
 public class Address {
     @Id
